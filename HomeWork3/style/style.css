@@ -38,6 +38,35 @@ body{
 	padding-bottom: 40px;
 }
 
+.fone{
+	position: relative;
+	background-image: url(/HomeWork3/img/фонове\ зображення.png);
+	width: 1440px;
+	height: 765px;
+}
+
+.fone-content{
+	text-transform: uppercase;
+	position: relative;
+	color: white;
+	font-size: 55px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.fone-content__text{
+	display: inline-block;
+	position: absolute;
+	margin-left: 125px;
+	padding-top: 20%;
+}
+
+.fone-content__flag{
+	display: inline-block;
+	position: absolute;
+	padding-top: 265px;
+	margin-left: 80px;
+}
+
 .content{
 	display: flex;
 	justify-content: center;
@@ -153,8 +182,8 @@ a{
 }
 
 .footer{
-	background-color: #013235;
 	margin-bottom: 50px;
+	background: linear-gradient(350deg, rgb(223, 240, 77) 50%, rgb(5, 19, 219) 50%);
 }
 
 .footer-header{
@@ -163,7 +192,7 @@ a{
 }
 
 .footer-header__blue{
-	color: #3E45E8;
+	color: #DFE31E;
 	font-weight: 400;
 }
 
@@ -180,7 +209,7 @@ a{
 }
 
 .footer-mail__color{
-	color: #A89D9D;
+	color: black;
 }
 
 .footer-tel{
@@ -191,7 +220,7 @@ a{
 }
 
 .footer-tel__color{
-	color: #A89D9D;
+	color: black;
 }
 
 .footer-vector{
