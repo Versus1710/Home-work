@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header-image{
+	background-image: url(/HomeWork4/image/venice_beach.png), url(/HomeWork4/image/first_big_fone.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: 969px 206px, cover;
+	background-position: 50% 30%;
+}
+
+.title-blocks{
+	font-size: 40px;
+	font-weight: 400;
+	padding-top: 40px;
+	margin-left: 100px;
+	text-transform: uppercase;
+}
+
+.box > div{
+	width: 400px;
+	height: 460px;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+

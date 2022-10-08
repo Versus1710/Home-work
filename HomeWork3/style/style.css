@@ -31,6 +31,7 @@ body{
 	padding-top: 40px;
 	font-size: 40px;
 	margin-left: 80px;
+	text-transform: uppercase;
 }
 
 .block-left__image{
@@ -40,7 +41,7 @@ body{
 
 .fone{
 	position: relative;
-	background-image: url(/HomeWork3/img/фонове\ зображення.png);
+	background-image: url(/HomeWork3/img/fone_image.png);
 	width: 1440px;
 	height: 765px;
 }
@@ -147,6 +148,7 @@ body{
 	text-align: center;
 	font-size: 40px;
 	color: black;
+	text-transform: uppercase;
 }
 
 .block-ukraine__line{
@@ -175,6 +177,7 @@ body{
 .block-ukraine__button_GO{
 	color: white;
 	font-size: 64px;
+	text-transform: uppercase;
 }
 
 a{
@@ -189,6 +192,7 @@ a{
 .footer-header{
 	font-size: 48px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .footer-header__blue{
