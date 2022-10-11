@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+	font-family: 'Inter';
+	background-color: #f5f5f5;
+}
+
+.main {
+	width: 1500px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.header {
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 700px;
+	background-image: url(../image/foneheader.png)
+}
+
+.header__image {
+	margin: 144px 265px;
+}
+
+.cards-menu {
+	position: relative;
+	margin: 0 112px;
+}
+
+.cards-menu__title {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 32px 11px;
+}
+
+.card {
+	width: 400px;
+	height: 460px;
+	display: inline-block;
+	background-color: #231B0C;
+	margin: 0 11px;
+}
+
+.card__image_1 {
+	position: absolute;
+	margin: 19px 120px 381px 120px;
+}
+
+.card__image_2 {
+	position: absolute;
+	margin: 184px 50px 65px;
+}
+
+#correct {
+	margin-top: 37px;
+}
+
+.venice {
+	margin-top: 42px;
+}
+
+.footer {
+	background-color: #150F02;
+	width: 1500px;
+	height: 279px;
+	margin-top: 40px;
+	position: relative;
+}
+
+.entertaments {
+	margin: 39px 914px 215px 419px;
+	position: absolute;
+}
+
+.restourant {
+	margin: 91px 939px 163px 419px;
+	position: absolute;
+}
+
+.shops {
+	margin: 39px 477px 211px 956px;
+	position: absolute;
+}
+
+.art {
+	margin: 91px 502px 163px 956px;
+	position: absolute;
+}
+
+.contact {
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	margin: 128px 685px;
+	padding-top: 12px;
+}
+
+.contact-border {
+	border-bottom: 10px solid #FF6B00;
+	width: 318px;
+	position: absolute;
+	margin: 172px 584px;
+}
+
+.social {
+	display: inline-block;
+}
+
+.inst {
+	position: absolute;
+	margin: 191px 814px 61px 654px;
+}
+
+.fb {
+	position: absolute;
+	margin: 191px 750px 61px 718px;
+}
+
+.youtube {
+	position: absolute;
+	margin: 194px 686px 65px 782px;
+}
+
+
+
