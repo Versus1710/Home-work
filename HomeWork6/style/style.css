@@ -165,10 +165,11 @@ a:hover li {
 }
 
 .block-about__info {
-	width: 40%;
+	width: 45%
 }
 
-.block-about__who {
+.block-about__who,
+.skills__info_my {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	font-size: 2rem;
@@ -183,7 +184,8 @@ a:hover li {
 	background-color: #292B2E;
 }
 
-.block-about__title {
+.block-about__title, 
+.skills__info_title {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 4.8rem;
@@ -193,16 +195,19 @@ a:hover li {
 	margin-top: 10px;
 }
 
-.block-about__text {
+.block-about__text,
+.skills__info_text {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 30px;
 	color: #D4D4D4;
 	margin-top: 30px;
+	width: 672px;
 }
 
-.block-about__btn {
+.block-about__btn,
+.skills__btn {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: 1.8rem;
@@ -220,4 +225,67 @@ a:hover li {
 .block-about__info a {
 	text-decoration: none;
 	text-align: center;
+}
+
+.skills {
+	margin: 18px auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills__info {
+	width: 45%;
+}
+
+.skills__info_title {
+	margin-top: 1px;
+	width: 518px;
+	line-height: 60px;
+}
+
+.skills__info_text {
+	width: 672px;
+}
+
+.skills__btn {
+	margin-top: 63px;
+}
+
+.skills a {
+	text-decoration: none;
+	text-align: center;
+}
+
+.skills__items {
+	width: 560px;
+	height: 176px;
+}
+
+.skills__item_one,
+.skills__item_two {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills__item_one div,
+.skills__item_two div {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #292B2E;
+	border-radius: 10px;
+	background-color: #292B2E;
+	margin: 7px auto;
+	text-align: center;
+}
+
+.skills__item_one img,
+.skills__item_two img {
+	padding: 15px;
+}
+
+.skills__item_one div:hover,
+.skills__item_two div:hover {
+	background-color: #ae6f09;
+	transition: all .3s;
 }
