@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Work 7</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="main-window">
+			<p class="main-window__kreativ">kreativ</p>
+			<div class="main-window__log">
+				<h2 class="main-window__title">Let’s get you started</h2>
+				<form class="login-window">
+					<label for="">Full name</label>
+					<input type="text" placeholder="Ade Tiger">
+					<label for="">Email address</label>
+					<input type="email" placeholder="yourname@email.com">
+					<label for="">Phone number</label>
+					<input type="tel" placeholder="+234 800 2738 9700">
+					<label for="password">Create password</label>
+					<input type="password" placeholder="•••••••••" minlength="4" maxlength="8" pattern="[a-z]{1,15}" title="Password must contain at least one symbol e.g. @, !">
+					<label for="form-list">Location <span>(Optional)</span></label>
+					<input type="text" id="form-list" list="region" placeholder="Select Location">
+					<datalist id="region">
+						<option value="АР Крим"></option>
+						<option value="Вінницька"></option>
+						<option value="Волинська"></option>
+						<option value="Дніпропетровська"></option>
+						<option value="Донецька"></option>
+						<option value="Житомирська"></option>
+						<option value="Закарпатська"></option>
+						<option value="Запорізька"></option>
+						<option value="Івано-Франківська"></option>
+						<option value="Київська"></option>
+						<option value="Кіровоградська"></option>
+						<option value="Луганська"></option>
+						<option value="Львівська"></option>
+						<option value="Миколаївська"></option>
+						<option value="Одеська"></option>
+						<option value="Полтавська"></option>
+						<option value="Рівненська"></option>
+						<option value="Сумська"></option>
+						<option value="Тернопільська"></option>
+						<option value="Харківська"></option>
+						<option value="Херсонська"></option>
+						<option value="Хмельницька"></option>
+						<option value="Черкаська"></option>
+						<option value="Чернівецька"></option>
+						<option value="Чернігівська"></option>
+					</datalist>
+					<div class="btn-pref">
+						<input id="btn" type="button" value="Sign Up">
+					</div>
+					<div class="footer-log">
+						<p>Already a user?</p>
+						<p><a href="#">Login</a></p>
+					</div>
+				</form>
+			</div>
+			<div class="main-window__menu">
+				<div class="top-menu">
+					<a href="#">home</a>
+					<a href="#">contact</a>
+				</div>
+				<figure class="quote">
+					<q>Creativity is intelligence having fun</q>
+					<figcaption>-Albert Einstein</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
