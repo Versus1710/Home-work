@@ -14,7 +14,7 @@ body {
 
 .container {
 	background-color: #fff;
-	min-width: 1200px;
+	min-width: 1500px;
 	margin: 0 auto;
 }
 
@@ -57,21 +57,97 @@ body {
 	margin: 20px;
 }
 
-.animate-image-block_one {
+.gallery-block {
 	width: 80%;
-	min-height: 90vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin: -21px auto;
-	gap: 2rem;
+	margin: 72px auto 96px;
+	gap: 3rem;
 }
 
-.photo-block_two,
-.photo-block_three,
-.photo-block_one,
-.photo-block_four{
+.photo-gallery_two,
+.photo-gallery_three,
+.photo-gallery_one,
+.photo-gallery_four {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 4rem;
+	width: 25%;
+}
+
+.photo-gallery_one,
+.photo-gallery_four {
+	width: 25%%;
+}
+
+.photo-gallery_one {
+	margin-right: 50px;
+}
+
+.photo-gallery_four {
+	margin-left: 50px;
+}
+
+.photo-gallery_three {
+	align-self: stretch;
+}
+
+.service-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0 auto;
+	widows: 100%;
+}
+
+.service-block_photos {
+margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 15rem;
+}
+
+
+.service-block_one,
+.service-block_two {
+	margin-top: 150px;
+}
+
+.service-block_photos p {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 4.8rem;
+	line-height: 58px;
+	color: #000;
+	text-align: center;
+	text-transform: capitalize;
+	white-space: nowrap;
+}
+
+.service__photo_four,
+.service__photo_three {
+	margin-top: 70px;
+}
+
+.team-block__title {
+	text-align: center;
+	margin-top: 13px;
+}
+
+.team-block__title p {
+	font-weight: 700;
+	font-size: 9.6rem;
+	line-height: 116px;
+	color: #000;
+	text-transform: capitalize;
+}
+
+.team-block__photo {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 51px;
+	margin-bottom: 10px;
+	gap: 5rem;
 }
