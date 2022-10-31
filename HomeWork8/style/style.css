@@ -269,8 +269,113 @@ body {
 }
 
 .service__photo_one {
-	animation: service__photo_one 5s linear infinite;
+	animation: service__photo_one 8s linear infinite;
+	transition: 4s linear;
 }
+
+@keyframes service__photo_one {
+	0% {
+		transform: translateX(0);
+	}
+
+	25% {
+		transform: translateX(520px);
+	}
+
+	50% {
+		transform: translate(520px, 520px);
+	}
+
+	75% {
+		transform: translate(0, 520px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.service__photo_two {
+	animation: service__photo_two 8s linear infinite;
+	transition: 4s linear;
+}
+
+@keyframes service__photo_two {
+	0% {
+		transform: translate(0);
+	}
+
+	25% {
+		transform: translate(0, 520px);
+	}
+
+	50% {
+		transform: translate(-520px, 520px);
+	}
+
+	75% {
+		transform: translate(-520px, 0);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.service__photo_four {
+	animation: service__photo_four 8s linear infinite;
+	transition: 4s linear;
+}
+
+@keyframes service__photo_four {
+	0% {
+		transform: translate(0);
+	}
+
+	25% {
+		transform: translate(-520px, 0);
+	}
+
+	50% {
+		transform: translate(-520px, -520px);
+	}
+
+	75% {
+		transform: translate(0, -520px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.service__photo_three {
+	animation: service__photo_three 8s linear infinite;
+	transition: 4s linear;
+}
+
+@keyframes service__photo_three {
+	0% {
+		transform: translate(0);
+	}
+
+	25% {
+		transform: translate(0, -520px);
+	}
+
+	50% {
+		transform: translate(520px, -520px);
+	}
+
+	75% {
+		transform: translate(520px, 0);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
 
 .service-block_photos p {
 	font-style: italic;
