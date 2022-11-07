@@ -83,7 +83,6 @@ body {
 	top: 30px;
 	left: -1000px;
 	width: 400px;
-	transition: 5s all;
 	animation: photo-gallery_two 4s linear forwards;
 }
 
@@ -119,8 +118,6 @@ body {
 	top: 30px;
 	left: -650px;
 	max-width: 30%;
-	transition: 2s all;
-	transition-delay: 2s;
 	animation: photo-gallery_one 5s linear forwards;
 }
 
@@ -156,7 +153,6 @@ body {
 	top: 30px;
 	right: -1000px;
 	width: 400px;
-	transition: 5s all;
 	animation: photo-gallery_three 4s linear forwards;
 }
 
@@ -192,7 +188,6 @@ body {
 	top: 30px;
 	right: -650px;
 	max-width: 30%;
-	transition: 5s linear;
 	animation: photo-gallery_four 5s linear forwards;
 }
 
@@ -393,6 +388,12 @@ body {
 	margin-top: 70px;
 }
 
+.team-block {
+	height: 780px;
+	max-width: 90%;
+	margin: 0 auto; 
+}
+
 .team-block__title {
 	text-align: center;
 	margin-top: 13px;
@@ -408,10 +409,46 @@ body {
 
 .team-block__photo {
 	display: flex;
-	justify-content: space-evenly;
-	margin-top: 51px;
-	margin-bottom: 10px;
+	justify-content: center;
+	margin: 0 auto;
 	gap: 5rem;
+}
+
+.team-block__photo div {
+	position: relative;
+}
+
+.meredith p,
+.jason p,
+.ryan p,
+.james p {
+	font-family: 'Volkhov', sans-serif;
+	font-weight: 400;
+	font-size: 4.8rem;
+	line-height: 62px;
+	color: #fffafa;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: -170px;
+	padding-top: 50px;
+	opacity: 0;
+	border: 1px solid;
+	border-style: none;
+	background: rgba(163, 83, 10, 0.7);
+	transform: rotate(0.12deg);
+	height: 168px;
+	border-bottom-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+}
+
+.name:hover p {
+	opacity: 1;
+	transition: all .5s;
+}
+
+.team-block__photo:hover .photo:not(:hover) {
+	filter: brightness(50%);
+	transition: all .5s;
 }
 
 .contacts-block {
@@ -595,5 +632,4 @@ body {
 	bottom: 14px;
 	right: -92px;
 }
-
 
