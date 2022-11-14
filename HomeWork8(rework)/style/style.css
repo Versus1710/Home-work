@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	padding-left: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	font-family: 'Rosario', sans-serif;
+	/* font-family: 'Volkhov', serif; */
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000;
+}
+
+.header{
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.container{
+	max-width: 1920px;
+	margin: 0 auto;
+	/* padding: 0 10px; */
+	background-color: #000;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* сделал что-бы логотип растянулся по высоте бэкграунда */
+.logo{
+	max-height: 129px;
+}
+
+.menu{
+	margin-right: 16px;
+}
+
+.menu__list{
+	display: flex;
+}
+
+.menu__item + .menu__item {
+	margin-left: 30px;
+}
+
+.menu__link{
+	text-transform: capitalize;
+	font-style: italic;
+	line-height: 44px;
+	color: #fff;
+}
