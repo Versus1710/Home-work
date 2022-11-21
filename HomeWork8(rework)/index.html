@@ -12,36 +12,169 @@
 	<link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+	<!-- хедер -->
 	<header class="header">
-		<div class="container">
-			<div class="header__inner">
-				<a class="logo" href="#">
-					<img src="./image/logo.jpg" alt="logo">
-				</a>
-				<nav class="menu">
-					<ul class="menu__list">
-						<li class="menu__item">
-							<a href="#" class="menu__link">Appointment</a>
-						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">Gallery</a>
-						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">Services</a>
-						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">Team</a>
-						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">Reviews</a>
-						</li>
-						<li class="menu__item">
-							<a href="#" class="menu__link">Contact</a>
-						</li>
-
-				</nav>
-			</div>
+		<div class="header__inner">
+			<a class="logo" href="#">
+				<img src="./image/logo.jpg" alt="logo">
+			</a>
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a href="#" class="menu__link">Appointment</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Gallery</a>
+					</li>
+					<li class="menu__item">
+						<a href="#services" class="menu__link">Services</a>
+					</li>
+					<li class="menu__item">
+						<a href="#team" class="menu__link">Team</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Reviews</a>
+					</li>
+					<li class="menu__item">
+						<a href="#contact" class="menu__link">Contact</a>
+					</li>
+			</nav>
 		</div>
 	</header>
+	<!-- галерея -->
+	<section class="gallery" >
+		<div class="container">
+			<div class="gallery__inner">
+				<div class="gallery__box-left">
+					<img src="./image/gallery-1.png" alt="1">
+				</div>
+				<div class="gallery__box-left_center">
+					<img src="./image/gallery-2.png" alt="2">
+					<img src="./image/gallery-5.png" alt="5">
+				</div>
+				<div class="gallery__box-right_center">
+					<img src="./image/gallery-3.png" alt="3">
+					<img src="./image/gallery-6.png" alt="6">
+				</div>
+				<div class="gallery__box-right">
+					<img src="./image/gallery-4.png" alt="4">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- сервис -->
+	<section class="services" id="services">
+		<div class="container">
+			<div class="services__inner">
+				<div class="services__box">
+					<div class="services__items-one">
+						<div class="services__item">
+							<img src="image/service-1.png" alt="1">
+							<p>Hair Styling</p>
+						</div>
+						<div class="services__item">
+							<img src="image/service-3.png" alt="3">
+							<p>Beard Trimming</p>
+						</div>
+					</div>
+					<div class="services__items-two">
+						<div class="services__item">
+							<img src="image/service-2.png" alt="2">
+							<p>Smooth Shave</p>
+						</div>
+						<div class="services__item">
+							<img src="image/service-4.png" alt="4">
+							<p>Hair Straightening</p>
+						</div>
+					</div>
+				</div>
+				<div class="services__image">
+					<img src="image/service-big-photo.png" alt="5">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- команда -->
+	<section class="team" id="team">
+		<div class="container">
+			<div class="team__inner">
+				<h1 class="team__title">
+					Meet Our Highly Skilled Experts
+				</h1>
+				<div class="team__photos">
+					<img src="image/meredith.png" alt="meredith">
+					<img src="image/jason.png" alt="jason">
+					<img src="image/ryan.png" alt="ryan">
+					<img src="image/james.png" alt="james">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- форма -->
+	<section class="form">
+		<div class="container">
+			<div class="form__inner">
+				<h2 class="form__title">
+					Get in touch with Us and send a Message
+				</h2>
+				<div class="form__flex">
+					<form class="form__tab">
+						<input class="form__name" type="text" placeholder="Name">
+						<input class="form__email" type="email" placeholder="Email">
+						<textarea class="form__comment" cols="30" rows="10" placeholder="Message"></textarea>
+					</form>
+					<div class="form__map">
+						<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.423074554503!2d-73.98980290838597!3d40.75271862203331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a96b86a719%3A0xbd25251bbc3d55d6!2sNew%20York%20School%20of%20Design!5e0!3m2!1sru!2sua!4v1666940082623!5m2!1sru!2sua"
+						width="626" height="570" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- контакты -->
+	<footer class="footer" id="contact">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__contacts">
+					<div class="footer__email">
+						<p>Email :</p>
+						<a href="mailto:kumarpratiyush1405@gmail.com">kumarpratiyush1405@gmail.com</a>
+					</div>
+					<div class="footer__phone">
+						<p>Phone :</p>
+						<a href="tel:+(972)723429834">+(972) 723429834</a>
+					</div>
+					<div class="footer__adress">
+						<p>Headquarters :</p>
+						<span>836th Avenue, 3rd Floor,<br>
+						New York,<br>
+						New York</span>
+					</div>
+				</div>
+				<div class="footer__schedule">
+					<h3>Opening Hours</h3>
+					<p>Monday - Friday : 10:00 am - 05:00 pm</p>
+					<p>Saturday : 10:00 am - 02:00 pm</p>
+				</div>
+				<div class="footer__social">
+					<h4>Connect With Us On</h4>
+					<div class="inst">
+						<a href="https://www.instagram.com/"><img src="image/inst.svg" alt="inst"></a>
+						<p>instagram</p>
+					</div>
+					<div class="fb">
+						<a href="https://www.facebook.com/"><img src="image/fb.svg" alt="fb"></a>
+						<p>facebook</p>
+					</div>
+					<div class="twitter">
+						<a href="https://twitter.com/"><img src="image/twitter.svg" alt="twitter"></a>
+						<p>twitter</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
